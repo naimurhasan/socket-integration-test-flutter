@@ -1,0 +1,6 @@
+# learnings
+// -- the bottom code only reply to same user
+// socket.emit('recieve-message', msg)
+// ---the bottom one replies all including sender 
+// io.emit('recieve-message', msg)
+// this all but not the sender it self

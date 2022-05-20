@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <head><title>Hello world</title></head>
+   <body>
+      <p>Socket Test Project</p>
+      <p>In this room <span id="room-count">0</span></p>
+      <p>Room <select id="room-options">
+         <option value="1">Room 1</option>
+         <option value="2">Room 2</option>
+         <option value="3">Room 3</option>
+      </select> <button id="select-room"> Join </button></p>
+      <form id="message-form">
+      Write: <input type="text" name="message"/><br/><br/>
+      <button type="submit">Submit</button>
+      </form>
+      <div id="messages"></div>
+   </body>
+   <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</html>
